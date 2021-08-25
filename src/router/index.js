@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Hyh from '../views/hyh.vue'
-import Zs from '../views/Zs.vue'
+import hyh from '../views/hyh.vue'
+import zs from '../views/Zs.vue'
+import lxg from '../views/Lxg.vue'
 
 Vue.use(VueRouter)
 
@@ -15,13 +16,18 @@ const routes = [
   {
       path: '/Hyh',
       name: 'Hyh',
-      component:Hyh
+      component:hyh
     },
   {
         path: '/Zs',
         name: 'Zs',
-        component:Zs
+        component:zs
       },
+    {
+          path: '/lxg',
+          name: 'lxg',
+          component:lxg
+        },
   {
     path: '/zx',
     name: 'zx',
