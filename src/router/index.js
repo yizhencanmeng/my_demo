@@ -5,6 +5,7 @@ import hyh from "../views/hyh.vue";
 import zs from "../views/Zs.vue";
 import lxg from "../views/Lxg.vue";
 import xgt from "../views/xgt.vue";
+import bao from "../views/bao.vue";
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: "/lxg",
     name: "lxg",
     component: lxg,
+  },
+  {
+    path: "/bao",
+    name: "bao",
+    component: bao,
   },
   {
     path: "/zx",
