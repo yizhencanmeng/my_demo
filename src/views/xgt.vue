@@ -34,6 +34,32 @@
                 <p>{{item.guige}}</p>
             </li>
         </ul>
+        <div class="fen">
+            <button>上一页</button>
+            <p>2/30</p>
+            <button>下一页</button>
+        </div>
+        <div class="jian">
+            <p>	房先森互联网家装有别于传统装修公司与其他装修中介平台，
+                以自营模式整合设计师与项目经理，利用互联网将工地进行在线全景直播，
+                通过去中间环节，提供装修套餐 + 个性化定制服务。
+            </p>
+        </div>
+    </div>
+    <div class="foot">
+        <p>服务热线：400-9977-658</p>
+        <ul>
+            <li>触屏版</li>
+            <li>电脑版</li>
+            <li>关于我们</li>
+            <li>联系我们</li>
+        </ul>
+        
+    </div>
+    <div class="footer">
+        <img src="@/img/foot.png" alt="">
+        <button>免费获取报价</button>
+        <img class="img" src="@/img/icon_close.png" alt="">
     </div>
 </div>
 </template>
@@ -79,7 +105,7 @@ export default {
     justify-content: space-between;
     .left {
       width: 100px;
-      height: 50px;
+      height: 40px;
       margin-top: 16px;
       margin-left: 18px;
       img {
@@ -164,6 +190,80 @@ export default {
         font-size: 12px;
       }
     }
+  }
+  .fen {
+    width: 100%;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    button {
+      width: 100px;
+      height: 40px;
+      background: #39c894;
+      border: none;
+      color: white;
+    }
+    p {
+      line-height: 40px;
+      width: 50px;
+      text-align: center;
+      font-size: 25px;
+    }
+  }
+  .jian {
+    width: 100%;
+    padding: 12px;
+    p {
+      color: #999999;
+      font-size: 14px;
+    }
+  }
+}
+.foot {
+  width: 100%;
+  margin-top: 20px;
+  p {
+    color: #999999;
+    font-size: 16px;
+    text-align: center;
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    li {
+      color: #999999;
+      font-size: 16px;
+    }
+  }
+}
+.footer {
+  width: 100%;
+  background: #333333;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  img {
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  button {
+    margin-top: 20px;
+    width: 120px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+    background: #feb505;
+    color: white;
+  }
+  .img {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 25px;
+    height: 25px;
   }
 }
 </style>
