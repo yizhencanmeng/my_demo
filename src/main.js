@@ -2,7 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import "../public/iconfont/iconfont.css"
+import '../public/iconfont/iconfont.css'
+
+Vue.config.productionTip = false
+
 Vue.config.productionTip = false
 import Vant from 'vant';
 import 'vant/lib/index.css';
