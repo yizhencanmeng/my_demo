@@ -54,7 +54,7 @@
 </template>
 
 <script>
-import list from "../../public/data.json"
+import list from "../../public/list.json"
 console.log(list.data,"iii")
 export default {
     data(){
