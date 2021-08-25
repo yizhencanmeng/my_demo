@@ -40,8 +40,9 @@ const routes = [
     component: () => import("../views/zx.vue"),
   },
   {
-    path: "/zx",
-    redirect: "/zx",
+    path: "/zzdyzpj",
+    name: "zzdyzpj",
+    component: () => import("../views/zzdyzpj.vue"),
   },
 ];
 
