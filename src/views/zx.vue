@@ -194,17 +194,18 @@
 }
 .top{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 70px;
 }
 .wa{
     height: 45px;
       margin-top: 16px;
       margin-bottom: 16px;
-      margin-left: 18px;
+      margin-left: 5px;
 }
 .zxys{
-    font-size: 20px;
+    margin-right: 55px;
+    font-size: 22px;
     line-height: 70px;
 }
 .top2{
