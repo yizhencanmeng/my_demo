@@ -39,20 +39,44 @@
       </div>
 
       <div class="ddd">
-          <div class="ddd1">
+          <div class="dd1">
+            <div class="ddd1">
               <i class="iconfont icon-pencle"></i>
           </div>
+          <span>评价(10)</span>
+          </div>
+          <div class="dd2">
           <div class="ddd2">
               <i class="iconfont icon-share"></i>
           </div>
+          <span>分享</span>
+          </div>
       </div>
+
+       <div class="ccc">
+          进入装修预算
+      </div>
+
+       <div class="fff">
+           <div class="fff1"></div>
+           <span>猜你喜欢</span>
+       </div>
+
+       <div class="hhh">
+           <div class="zuo"><img src="/img/common/icon_logo.png" alt=""></div>
+           <div class="you">
+               <p>遇见有这样房子的男人就嫁了吧</p>
+               <br/><br/>
+               <p>2016-07-07&emsp;&emsp;&emsp;&emsp;115</p>
+           </div>
+       </div> 
     </div>
 </template>
 <script>
 
 </script>
 
-<style>
+<style lang="scss">
 .bigger{
     width: 100%;
     height: 100%;
@@ -61,7 +85,6 @@
     display: flex;
     justify-content: space-around;
     height: 70px;
-    background: red;
 }
 .wa{
     height: 45px;
@@ -113,21 +136,75 @@
     color: pink;
 }
 .ddd{
-    width: 50%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    background: red;
+    height: 100px;
+    // background: red;
+}
+.dd1{
+    height: 110px;
+    text-align: center;
+    color: #1b9af7;
 }
 .ddd1{
-    width: 30px;
-    height: 30px;
-}
-.icon-pencle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #1b9af7;
+    text-align: center;
+    .icon-pencle{
     font-size: 50px;
 }
-.icon-share{
+}
+.dd2{
+    height: 110px;
+    text-align: center;
+    color: #eed215;
+}
+.ddd2{
+     width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #eed215;
+    text-align: center;
+    .icon-share{
     font-size: 50px;
+    }
+}
+.fff{
+    margin-left: 10px;
+    line-height: 40px;
+    .fff1{
+        display: inline-block;
+        width: 5px;
+        height: 30px;
+        background: #2bb281;
+        margin-right: 10px;
+    }
+    span{
+        font-size: 20px;
+    }
+}
+.hhh{
+    height: 80px;
+    // background: red;
+    display: flex;
+    justify-content: space-around;
+    .zuo{
+        width: 30%;
+        height: 80px;
+        // background: pink;
+        img{
+            height: 80px;
+            width: 80px;
+        }
+    }
+    .you{
+        width: 60%;
+        height: 80px;
+        // background: blue;
+    }
 }
 </style>
