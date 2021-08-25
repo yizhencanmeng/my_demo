@@ -146,7 +146,7 @@ export default {
          height: 30px;
          i{
              font-size: 18px;
-             padding: 0 5px;;
+             padding: 0 5px;
          }
      }
    }
