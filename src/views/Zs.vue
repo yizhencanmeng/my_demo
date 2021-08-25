@@ -110,13 +110,14 @@ export default {
     .hua{
         margin-top: 20px;
         width: 100%;
-        height: 20px;
+        height: 10px;
         background: #ccc;
         
     }
    .p1{
        width:100%;
        text-align: center;
+       padding: 10px 0;
        i{
            color: #39c894;
            font-size: 20px;
@@ -137,6 +138,7 @@ export default {
    }
    .di{
        width: 100%;
+       margin-bottom: 50px;
      button{
          width: 100%;
          border: 0;
